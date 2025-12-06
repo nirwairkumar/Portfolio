@@ -4,17 +4,19 @@ import HeroSection from '../HeroSection';
 import AboutMe from '../AboutMe';
 import Skills from '../Skills';
 import Projects from '../Projects';
+import Achievements from '../Achievements';
 import Contact from '../Contact';
 import Footer from '../Footer';
 
 const App = () => {
   return (
-    <div style={{ minHeight: '100vh', width: '100%', backgroundColor: '#ffffff' }}>
+    <div className="app-container" style={{ minHeight: '100vh', width: '100%' }}>
       <Navbar />
       <main>
         <HeroSection />
         <AboutMe />
         <Skills />
+        <Achievements />
         <Projects />
         <Contact />
       </main>

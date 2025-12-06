@@ -9,10 +9,10 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
-    
-
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.86.2",
+    "framer-motion": "^12.23.25",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -30,4 +30,3 @@
     "vite": "^5.0.8"
   }
 }
-
